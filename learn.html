@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<style>
+</style>
+<body onload="onLoad()">
+<!--    <p>liste des matieres</p>-->
+<!--    <ol type="1">-->
+<!--        <li>-->
+<!--            premier liste-->
+<!--            <ul>-->
+<!--                <li>liste ordonne</li>-->
+<!--                <li>liste non ordonne</li>-->
+<!--                <li>tak tak</li>-->
+<!--            </ul>-->
+<!--        </li>-->
+<!--    </ol>-->
+<!--    <dl>-->
+<!--        <dt>-->
+<!--            html-->
+<!--            <dd>hypertext markup langauge</dd>-->
+<!--        </dt>-->
+
+<!--    </dl>-->
+<!--    <table width="100%" border="1px">-->
+<!--        <caption >this is a table</caption>-->
+<!--        <tr>-->
+<!--            <td>c1</td>-->
+<!--            <td>c1</td>-->
+<!--            <td>c1</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td rowspan="2">hab hab</td>-->
+<!--            <td>t1</td>-->
+<!--            <td>t2</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>row 2</td>-->
+<!--            <td rowspan="2">row 3</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>row 3</td>-->
+<!--            <td>row 4</td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--    <table border="1px" cellspacing="20px">-->
+<!--        <tr>-->
+<!--            <td>col1</td>-->
+<!--            <td>col2</td>-->
+<!--            <td>col3</td>-->
+<!--            <td>col4</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td rowspan="4">row 1</td>-->
+<!--            <td colspan="3">cel 1</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td colspan="2">cel2</td>-->
+<!--            <td rowspan="3">cel3</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td rowspan="2">cell 4</td>-->
+<!--            <td>cell 5</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>cel 6</td>-->
+<!--        </tr>-->
+<!--        <caption style="caption-side: bottom">this is title</caption>-->
+<!--    </table>-->
+<!--    <input list="list">
+    <datalist id="list"> -->
+<!--        <option value="chrome">-->
+
+<!--        </option>-->
+<!--    </datalist>-->
+</body>
+<script>
+    function onLoad() {
+        var
+            person  ={fname:"John",lname:"Doe",age:25};
+        var txt="";
+        for (x in person)
+        {
+            txt=txt + person[x];
+        }
+        alert(txt)
+        document.write (`<p>${txt}</p>`);
+    }
+
+</script>
+</script>
+</html>
